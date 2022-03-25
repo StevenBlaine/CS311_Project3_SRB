@@ -78,7 +78,7 @@
             // pictPizza
             // 
             this.pictPizza.Image = global::CS311_Project3_SRB.Properties.Resources.MuppetPizza;
-            this.pictPizza.Location = new System.Drawing.Point(21, 324);
+            this.pictPizza.Location = new System.Drawing.Point(21, 328);
             this.pictPizza.Name = "pictPizza";
             this.pictPizza.Size = new System.Drawing.Size(102, 99);
             this.pictPizza.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -122,7 +122,7 @@
             // 
             this.lblOrderSummary.AutoSize = true;
             this.lblOrderSummary.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblOrderSummary.Location = new System.Drawing.Point(27, 290);
+            this.lblOrderSummary.Location = new System.Drawing.Point(29, 302);
             this.lblOrderSummary.Name = "lblOrderSummary";
             this.lblOrderSummary.Size = new System.Drawing.Size(96, 13);
             this.lblOrderSummary.TabIndex = 5;
@@ -362,6 +362,7 @@
             this.txtSubtotal.Name = "txtSubtotal";
             this.txtSubtotal.Size = new System.Drawing.Size(100, 20);
             this.txtSubtotal.TabIndex = 25;
+            this.txtSubtotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtTax
             // 
@@ -369,6 +370,7 @@
             this.txtTax.Name = "txtTax";
             this.txtTax.Size = new System.Drawing.Size(100, 20);
             this.txtTax.TabIndex = 26;
+            this.txtTax.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtTotal
             // 
@@ -376,6 +378,7 @@
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(100, 20);
             this.txtTotal.TabIndex = 27;
+            this.txtTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btnCalculate
             // 
